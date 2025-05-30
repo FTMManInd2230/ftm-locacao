@@ -18,6 +18,11 @@
       padding: 20px;
       text-align: center;
     }
+    header img {
+      max-width: 100px;
+      display: block;
+      margin: 0 auto 10px;
+    }
     nav {
       background-color: #004080;
       text-align: center;
@@ -71,10 +76,29 @@
     .btn:hover {
       background: #0056b3;
     }
+    .whatsapp-chat {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .whatsapp-chat img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .map {
+      width: 100%;
+      height: 400px;
+      border: none;
+      display: block;
+    }
   </style>
 </head>
 <body>
   <header>
+    <img src="Logo FTM.png" alt="Logo FTM">
     <h1>F T M Manutenção Industrial e Locação</h1>
     <p>Especializados em Locação de Caminhão Munck</p>
   </header>
@@ -107,12 +131,18 @@
   <div class="contact" id="contato">
     <h2>Fale Conosco</h2>
     <p>📍 Avenida 05, 2230 – Jardim Teixeira, Orlândia-SP</p>
-    <p>📞 (16) 9 9983-8852</p>
-    <p><a class="btn" href="https://wa.me/5516999838852" target="_blank">Chamar no WhatsApp</a></p>
+    <p>📞 (16) 9 9246-3507</p>
+    <p><a class="btn" href="https://wa.me/5516992463507" target="_blank">Chamar no WhatsApp</a></p>
   </div>
+
+  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.2800995103087!2d-47.88530938502757!3d-20.71610900367644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8fd6f0640a625%3A0x2b1f8b25d2640b96!2sAv.%2005%2C%202230%20-%20Jardim%20Teixeira%2C%20Orl%C3%A2ndia%20-%20SP%2C%2014630-000!5e0!3m2!1spt-BR!2sbr!4v1717080574152!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   <footer>
     <p>&copy; 2025 F T M Manutenção Industrial e Locação. Todos os direitos reservados.</p>
   </footer>
+
+  <a class="whatsapp-chat" href="https://wa.me/5516992463507?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20loca%C3%A7%C3%A3o%20de%20caminh%C3%A3o%20munck." target="_blank">
+    <img src="https://img.icons8.com/color/96/whatsapp--v1.png" alt="Chat no WhatsApp">
+  </a>
 </body>
 </html>

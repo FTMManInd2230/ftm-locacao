@@ -94,6 +94,19 @@
       border: none;
       display: block;
     }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
   </style>
 </head>
 <body>
@@ -106,6 +119,7 @@
   <nav>
     <a href="#sobre">Sobre</a>
     <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
     <a href="#contato">Contato</a>
   </nav>
 
@@ -125,6 +139,15 @@
         <li>➡ Apoio em obras e construção civil</li>
         <li>➡ Cargas pesadas e especiais</li>
       </ul>
+    </section>
+
+    <section id="galeria" class="hero">
+      <h2>Galeria de Serviços</h2>
+      <div class="gallery">
+        <img src="galeria1.jpeg" alt="Munck em operação">
+        <img src="galeria2.jpeg" alt="Transporte com Munck">
+        <img src="galeria3.jpeg" alt="Serviço com Munck">
+      </div>
     </section>
   </div>
 
@@ -146,5 +169,3 @@
   </a>
 </body>
 </html>
-
-

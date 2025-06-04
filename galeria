@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galeria de imagens da F T M Manutenção Industrial e Locação - serviços com caminhão munck em Orlândia-SP.">
+  <title>Galeria | F T M Manutenção Industrial e Locação</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #00264d;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 100px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    nav {
+      background-color: #004080;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #00264d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="FTM.png" alt="FTM">
+    <h1>Galeria de Serviços</h1>
+    <p>Veja nossos caminhões munck em ação</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="index.html#servicos">Serviços</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="index.html#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+    <div class="gallery">
+      <img src="galeria1.jpeg" alt="Munck em operação">
+      <img src="galeria2.jpeg" alt="Transporte com Munck">
+      <img src="galeria3.jpeg" alt="Serviço com Munck">
+      <img src="foto1.jpeg" alt="Novo Serviço 1">
+      <img src="foto2.jpeg" alt="Novo Serviço 2">
+      <img src="foto3.jpeg" alt="Novo Serviço 3">
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 F T M Manutenção Industrial e Locação. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
